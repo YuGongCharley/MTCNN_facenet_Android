@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.charleyszc.faceDemo.mobilefacenet">
+    <!-- 操作sd卡权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEM"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.READ_LOGS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:debuggable="true"
+        tools:ignore="HardcodedDebugMode">
+
+        <activity android:name="com.charleyszc.faceDemo.mobilefacenet.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.charleyszc.faceDemo.mobilefacenet.facemodule.TestRecognizeActivity"></activity>
+        <activity android:name="com.charleyszc.faceDemo.mobilefacenet.facemodule.CompareActivity"></activity>
+        <activity android:name="com.charleyszc.faceDemo.mobilefacenet.facemodule.AddPersonActivity"></activity>
+        <activity android:name="com.charleyszc.faceDemo.mobilefacenet.facemodule.VideoRecognizeActivity"></activity>
+        <activity android:name="com.charleyszc.faceDemo.mobilefacenet.facemodule.TestLivenessActivity"></activity>
+        <activity android:name=".facemodule.VideoAddFaceActivity"/>
+    </application>
+
+</manifest>

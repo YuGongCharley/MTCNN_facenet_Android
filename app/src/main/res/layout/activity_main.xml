@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.charleyszc.faceDemo.mobilefacenet.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/btn_compareView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1:1比对"
+                android:onClick="jumpToCompareView"/>
+            <Button
+                android:id="@+id/btn_addPersonView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="添加人脸"
+                android:onClick="jumpToAddPersonView"/>
+            <Button
+                android:id="@+id/btn_videoAddPersonView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="动态添加人脸"
+                android:onClick="jumpToVideoAddPersonView" />
+            <Button
+                android:id="@+id/btn_TestRecognizeView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="比对测试"
+                android:onClick="jumpToTestRecognizeView"/>
+            <Button
+                android:id="@+id/btn_videoRecognizeView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="识别比对"
+                android:onClick="jumpToVideoRecognizeView"/>
+            <Button
+                android:id="@+id/btn_testLivenessView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="活体测试"
+                android:onClick="jumpToTestLivenessView"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

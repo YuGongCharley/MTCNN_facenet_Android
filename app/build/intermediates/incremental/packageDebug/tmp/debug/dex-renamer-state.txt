@@ -1,0 +1,4 @@
+#Sat May 02 16:13:04 CST 2020
+base.0=/Users/songzichen/Documents/charleyszcfacedemo/app/build/intermediates/dex/debug/mergeDexDebug/out
+path.0=classes.dex
+renamed.0=classes.dex
