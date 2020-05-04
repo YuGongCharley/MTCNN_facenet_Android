@@ -17,7 +17,7 @@
 Dependencies
 ---
 MTCNN
-https://github.com/WilliamEricCheung/FaceDetector/tree/fb0b6354615106895b464b7d4c32ff95528f02a8
+https://github.com/WilliamEricCheung/FaceDetector
 NCNN
 MobileFaceNet
 
