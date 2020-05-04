@@ -16,9 +16,9 @@
 
 Dependencies
 ---
-MTCNN
-https://github.com/WilliamEricCheung/FaceDetector
-NCNN
-MobileFaceNet
+MTCNN <br>
+https://github.com/WilliamEricCheung/FaceDetector <br>
+NCNN <br>
+MobileFaceNet <br>
 
 # MTCNN_facenet_Android
