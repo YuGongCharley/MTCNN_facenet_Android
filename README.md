@@ -14,4 +14,11 @@
 
 ---
 
+Dependencies
+---
+MTCNN
+https://github.com/WilliamEricCheung/FaceDetector/tree/fb0b6354615106895b464b7d4c32ff95528f02a8
+NCNN
+MobileFaceNet
+
 # MTCNN_facenet_Android
